@@ -5,16 +5,18 @@ function Aboutus() {
 		<section className='aboutus'>
 			<h2>about us </h2>
 			<article>
-				<h3>
-					At our company, we are passionate about language learning and
-					empowering individuals to reach their full potential in English.
-				</h3>
-				<p>
-					We understand that learning a new language can be challenging, but we
-					firmly believe that with the right tools and resources, anyone can
-					achieve fluency. Start exploring our flashcards today and unlock your
-					full potential in English!
-				</p>
+				<div>
+					<h3>
+						At our company, we are passionate about language learning and
+						empowering individuals to reach their full potential in English.
+					</h3>
+					<p>
+						We understand that learning a new language can be challenging, but
+						we firmly believe that with the right tools and resources, anyone
+						can achieve fluency. Start exploring our flashcards today and unlock
+						your full potential in English!
+					</p>
+				</div>
 
 				<img src={aboutUs} alt='' />
 			</article>

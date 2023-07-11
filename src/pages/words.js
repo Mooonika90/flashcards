@@ -22,6 +22,16 @@ function Words() {
 		}
 	};
 
+	if (words.length === 0) {
+		return (
+			<section>
+				<h2>Words List</h2>
+				<p>No words found. </p>
+				<Link to={'/addword'}>Add word</Link>
+			</section>
+		);
+	}
+
 	return (
 		<section>
 			<h2>Words List</h2>
@@ -38,7 +48,7 @@ function Words() {
 						<Link
 							to={`/words/list/${word}`}
 							onClick={() => toggleCardFlip(index)}>
-							filp
+							flip
 						</Link>
 					</article>
 				))}
@@ -48,4 +58,3 @@ function Words() {
 }
 
 export default Words;
-

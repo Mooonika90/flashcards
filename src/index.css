@@ -202,7 +202,9 @@ nav li {
 .add-word p {
 	margin: var(--margin-size_2);
 }
-
+section {
+	text-align: center;
+}
 .home-page div {
 	text-align: center;
 }
@@ -210,7 +212,8 @@ nav li {
 .play-audio,
 .home-page a,
 .add-word a,
-.flashCards a {
+.flashCards a,
+section a {
 	display: inline-block;
 	margin-top: 1rem;
 	background: var(--accent);
@@ -324,6 +327,9 @@ img {
 	align-items: center;
 	justify-content: center;
 	gap: var(--gap);
+}
+.aboutus article h3 {
+	margin: 1rem 0;
 }
 .aboutus ul {
 	list-style-type: none;
