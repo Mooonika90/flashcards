@@ -16,26 +16,18 @@ function MainMenu() {
 				&#9776;
 			</div>
 			<div className={`nav-elements  ${showNavbar && 'active'}`}>
-				<ul>
+				<ul onClick={handleLinkClick}>
 					<li>
-						<Link to={'/'} onClick={handleLinkClick}>
-							Start
-						</Link>
+						<Link to={'/'}>Start</Link>
 					</li>
 					<li>
-						<Link to={'/addword'} onClick={handleLinkClick}>
-							Add word
-						</Link>
+						<Link to={'/addword'}>Add word</Link>
 					</li>
 					<li>
-						<Link to={'/words'} onClick={handleLinkClick}>
-							Words list
-						</Link>
+						<Link to={'/words'}>Words list</Link>
 					</li>
 					<li>
-						<Link to={'/aboutus'} onClick={handleLinkClick}>
-							About Us
-						</Link>
+						<Link to={'/aboutus'}>About Us</Link>
 					</li>
 				</ul>
 			</div>

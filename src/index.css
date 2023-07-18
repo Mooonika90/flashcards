@@ -233,6 +233,12 @@ section a {
 	cursor: pointer;
 	border: none;
 }
+
+.disabled {
+	padding: 0.4rem 0;
+	background-color: var(--text);
+	cursor: not-allowed;
+}
 .btn-add:active,
 .play-audio:active,
 .home-page a:active,

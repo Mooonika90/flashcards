@@ -7,6 +7,7 @@ function List() {
 	const { word } = useParams();
 	let { data } = useSWR(word, fetcherDictionary);
 
+
 	const [isPlaying, setIsPlaying] = useState(false);
 
 	const handleButtonClick = () => {

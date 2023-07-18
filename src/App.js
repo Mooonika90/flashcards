@@ -2,7 +2,6 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 import HomePage from './pages/index';
-
 import FlashCardForm from './pages/addword';
 import Words from './pages/words';
 import Aboutus from './pages/aboutus';
@@ -17,6 +16,7 @@ function App() {
 
 			<main>
 				<Routes>
+					<Route path={'/result/:word'} element={<FlashCardForm />} />
 					<Route path={'/aboutus'} element={<Aboutus />} />
 					<Route path={'/addword'} element={<FlashCardForm />} />
 					<Route path={`/words/`} element={<Words />} />
