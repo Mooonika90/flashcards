@@ -1,3 +1,5 @@
+import ScrollToTop from './ScrollToTop';
+
 function Footer() {
 	return (
 		<footer id='site-footer'>
@@ -6,11 +8,7 @@ function Footer() {
 				<p>
 					©Copyright {new Date().getFullYear()} by nobody. All rights reversed.
 				</p>
-				<a href='#site-header'>
-					<span>
-						To the top <span aria-hidden='true'>↑</span>
-					</span>
-				</a>
+				<ScrollToTop />
 			</div>
 		</footer>
 	);

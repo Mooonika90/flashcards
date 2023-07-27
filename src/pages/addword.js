@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import addWord from '../assets/bookmark.png';
+import addWord from '../assets/bookmark2.png';
 import Result from './result';
 
 function FlashCardForm() {
@@ -34,11 +34,13 @@ function FlashCardForm() {
 							Add Word
 						</button>
 					)}
+
 					<Link to='/words/'>Go to word list</Link>
 				</form>
-				<Result />
+
 				<img src={addWord} alt='' />
 			</div>
+			<Result />
 			<p>
 				Join our community of language learners today and experience the power
 				of flashcards in transforming your English proficiency. Explore our vast

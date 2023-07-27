@@ -33,9 +33,12 @@ function Result() {
 
 	return (
 		<>
-			{newResult ? <p>{newResult}</p> : <p>{data?.message}</p>}
-
-			{wordExists && <p>{wordExists}</p>}
+			{newResult ? (
+				<p className='results'>Lastly added word: {newResult}</p>
+			) : (
+				<p className='results'> {data?.message}</p>
+			)}
+			{wordExists && <p className='results'>{wordExists}</p>}
 		</>
 	);
 }

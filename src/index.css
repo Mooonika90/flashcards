@@ -196,9 +196,6 @@ nav li {
 	gap: 4rem;
 	line-height: 1.8;
 }
-.add-word div {
-	gap: var(--gap);
-}
 .add-word p {
 	margin: var(--margin-size_2);
 }
@@ -371,12 +368,10 @@ section p span {
 	flex-shrink: 0;
 	margin-top: auto;
 }
-.error,
-.success {
-	display: block;
+.add-word .results {
 	color: var(--accent);
-	text-align: left;
-	font-size: 0.8rem;
+	color: var(--secondary-accent);
+	gap: 0;
 	margin: 0;
 	padding: 0;
 }
@@ -386,17 +381,30 @@ section p span {
 	font-weight: bold;
 	font-size: 6rem;
 }
+
+.scroll-top-btn {
+	padding: var(--padding-size);
+	text-align: center;
+	border: none;
+	border-radius: var(--border-radius);
+	cursor: pointer;
+}
 @media (max-width: 50rem) {
 	#site-header {
 		justify-content: center;
 	}
+	.home-page,
+	.add-word div,
 	.aboutus ul,
 	.aboutus article {
 		flex-direction: column;
 	}
 
 	img {
-		width: 70%;
+		width: 50%;
+	}
+	.add-word img {
+		width: 40%;
 	}
 }
 
@@ -433,11 +441,6 @@ section p span {
 
 	#mainmenu .nav-elements ul li a {
 		margin-top: 2rem;
-	}
-
-	.home-page,
-	.add-word div {
-		flex-direction: column;
 	}
 
 	.add-word div {
