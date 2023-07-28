@@ -181,7 +181,7 @@ nav li {
 	display: flex;
 	align-items: baseline;
 	justify-content: space-between;
-	padding: 1.25em;
+	padding: 0.5em;
 }
 
 #site-footer a {
