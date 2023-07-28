@@ -384,6 +384,8 @@ section p span {
 
 .scroll-top-btn {
 	padding: var(--padding-size);
+	background-color: var(--main-color);
+	color: var(--text);
 	text-align: center;
 	border: none;
 	border-radius: var(--border-radius);
