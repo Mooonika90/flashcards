@@ -272,6 +272,10 @@ img {
 	font-size: 0.8rem;
 	padding-left: 0.3rem;
 }
+
+.add-word img {
+	width: 30%;
+}
 .flashCards {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
